@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create new user</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <text>Userid: </text><input type="text" value="@Guid.NewGuid()" name="userid" /><br/>
+            <text>Email: </text><input type="text" value="" name="email" /><br/>
+            <input type="submit" value="Create"/>
+        }
+    </div>
+</body>
+</html>

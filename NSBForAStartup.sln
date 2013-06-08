@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Containers", "Containers", "{7480649E-61E1-4504-83ED-A55EF4B3FFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountsService", "AccountsService", "{6FC385B4-0F44-4FFE-B12B-77A529A3FC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductService", "ProductService", "{4C5F0E50-D778-4143-9548-CFF0CB908F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarketingService", "MarketingService", "{2FE17BBC-5F5D-4EE6-B105-125D1617BB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup.AccountsService.Commands", "NSBForAStartup.AccountsService.Commands\NSBForAStartup.AccountsService.Commands.csproj", "{439A05AA-10C5-4149-82A5-4841AF483548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup.AccountsService.Domain.Model.Events", "NSBForAStartup.AccountsService.Domain.Model.Events\NSBForAStartup.AccountsService.Domain.Model.Events.csproj", "{FBC73FEA-BCDB-433F-97BA-8DF4FB375279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup.AccountsService.MessageHandlers", "NSBForAStartup.AccountsService.MessageHandlers\NSBForAStartup.AccountsService.MessageHandlers.csproj", "{213AB3D0-97A2-4AB0-AEE8-70E916A2C1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup", "NSBForAStartup.UI\NSBForAStartup.csproj", "{5CCA286E-8246-4483-9175-4C5C0C8D120A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup.Worker", "NSBForAStartup.Worker\NSBForAStartup.Worker.csproj", "{39480CDC-152B-4CDD-88D4-6FE911373DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup.MarketingService.MessageHandlers", "NSBForAStartup.MarketingService.MessageHandlers\NSBForAStartup.MarketingService.MessageHandlers.csproj", "{AFA63038-F9BB-47A1-A16F-A4E6A9637B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBForAStartup.ProductService.MessageHandlers", "NSBForAStartup.SomeOtherService.MessageHandlers\NSBForAStartup.ProductService.MessageHandlers.csproj", "{D4CAAFAF-5E75-491F-961D-1C1530ECAF9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439A05AA-10C5-4149-82A5-4841AF483548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439A05AA-10C5-4149-82A5-4841AF483548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439A05AA-10C5-4149-82A5-4841AF483548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439A05AA-10C5-4149-82A5-4841AF483548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC73FEA-BCDB-433F-97BA-8DF4FB375279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC73FEA-BCDB-433F-97BA-8DF4FB375279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC73FEA-BCDB-433F-97BA-8DF4FB375279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC73FEA-BCDB-433F-97BA-8DF4FB375279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213AB3D0-97A2-4AB0-AEE8-70E916A2C1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213AB3D0-97A2-4AB0-AEE8-70E916A2C1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213AB3D0-97A2-4AB0-AEE8-70E916A2C1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213AB3D0-97A2-4AB0-AEE8-70E916A2C1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCA286E-8246-4483-9175-4C5C0C8D120A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCA286E-8246-4483-9175-4C5C0C8D120A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCA286E-8246-4483-9175-4C5C0C8D120A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCA286E-8246-4483-9175-4C5C0C8D120A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39480CDC-152B-4CDD-88D4-6FE911373DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39480CDC-152B-4CDD-88D4-6FE911373DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39480CDC-152B-4CDD-88D4-6FE911373DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39480CDC-152B-4CDD-88D4-6FE911373DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA63038-F9BB-47A1-A16F-A4E6A9637B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA63038-F9BB-47A1-A16F-A4E6A9637B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA63038-F9BB-47A1-A16F-A4E6A9637B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA63038-F9BB-47A1-A16F-A4E6A9637B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CAAFAF-5E75-491F-961D-1C1530ECAF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CAAFAF-5E75-491F-961D-1C1530ECAF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CAAFAF-5E75-491F-961D-1C1530ECAF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CAAFAF-5E75-491F-961D-1C1530ECAF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CCA286E-8246-4483-9175-4C5C0C8D120A} = {7480649E-61E1-4504-83ED-A55EF4B3FFC1}
+		{39480CDC-152B-4CDD-88D4-6FE911373DFD} = {7480649E-61E1-4504-83ED-A55EF4B3FFC1}
+		{439A05AA-10C5-4149-82A5-4841AF483548} = {6FC385B4-0F44-4FFE-B12B-77A529A3FC7E}
+		{FBC73FEA-BCDB-433F-97BA-8DF4FB375279} = {6FC385B4-0F44-4FFE-B12B-77A529A3FC7E}
+		{213AB3D0-97A2-4AB0-AEE8-70E916A2C1AA} = {6FC385B4-0F44-4FFE-B12B-77A529A3FC7E}
+		{D4CAAFAF-5E75-491F-961D-1C1530ECAF9D} = {4C5F0E50-D778-4143-9548-CFF0CB908F64}
+		{AFA63038-F9BB-47A1-A16F-A4E6A9637B58} = {2FE17BBC-5F5D-4EE6-B105-125D1617BB0F}
+	EndGlobalSection
+EndGlobal
