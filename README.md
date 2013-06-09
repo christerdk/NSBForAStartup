@@ -20,10 +20,10 @@ This POC projectproject includes one use case example, user creation. This is wh
 What you need to run this project:
 
 * Make sure you have MSMQ installed.
-* Download and install NServiceBus
+* Download and install NServiceBus (this will ensure that you have all prerequisites).
 * Clone the project.
 * Build - first might take up to a couple of minutes - the referenced nuget packages will be downloaded on first build.
-* Go into solution properties and select multiple project startup: The NSBForAStartup and NSBForAStartup.Worker much be selected to start.
+* Go into solution properties and select multiple projecta startup: The NSBForAStartup and NSBForAStartup.Worker must be selected to start.
 * Run :)
 
 This is a project for demonstration purposes only and does not contain production ready code - many "de facto" best practices have actively been ignored, such as IoC, contracts, unit tests and what have you... 
