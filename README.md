@@ -27,3 +27,5 @@ What you need to run this project:
 * Run :)
 
 This is a project for demonstration purposes only and does not contain production ready code - many "de facto" best practices have actively been ignored, such as IoC, contracts, unit tests and what have you of other "best practices" that [gets in the way of writing code](https://medium.com/i-m-h-o/eef96ea6f4cb)... 
+
+Ping me on [@christerdk](https://twitter.com/christerdk) if you have any questions! :)
