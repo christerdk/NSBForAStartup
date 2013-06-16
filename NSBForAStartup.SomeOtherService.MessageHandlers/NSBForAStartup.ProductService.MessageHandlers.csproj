@@ -55,10 +55,6 @@
       <Project>{FBC73FEA-BCDB-433F-97BA-8DF4FB375279}</Project>
       <Name>NSBForAStartup.AccountsService.Domain.Model.Events</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NSBForStartups.AccountsService.Domain.Model.Events\NSBForStartups.AccountsService.Domain.Model.Events.csproj">
-      <Project>{15333FB2-9B68-427C-A6A9-6E330F170FDA}</Project>
-      <Name>NSBForStartups.AccountsService.Domain.Model.Events</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
