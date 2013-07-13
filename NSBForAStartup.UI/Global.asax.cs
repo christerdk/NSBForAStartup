@@ -33,20 +33,25 @@ namespace NSBForAStartup
 
         private void SetupNServiceBus()
         {
-            Bus = NServiceBus.Configure.With()
+            Configure.Transactions.Enable();
+            Configure.Serialization.Xml();
+
+            Bus = 
+                 Configure.With()
                 .DefineEndpointName("NSBForAStartup")
                 .DefaultBuilder()
-                .XmlSerializer()
-                .MsmqTransport()
-                .IsTransactional(false)
+                .UseTransport<Msmq>()
                 .PurgeOnStartup(true)
                 .UnicastBus()
-                .ImpersonateSender(false)
+                .RunHandlersUnderIncomingPrincipal(true)
                 .CreateBus()
                 .Start(() =>
                 {
                     Configure.Instance.ForInstallationOn<NServiceBus.Installation.Environments.Windows>().Install();
                 });
+
+
+
         }
 
     }
